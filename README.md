@@ -12,7 +12,7 @@ Heavily inspired by [czech.h](https://github.com/Toaster192/czech.h).
 #include "staroczech.h"
 #include <stdio.h>
 
-číslo najpřední ( prázdn )
+číslo najpřědní ( prázdn )
 začětie
     potískatif("Nu, zdrávi byli, světe!\n");
     vrátiti 0;
