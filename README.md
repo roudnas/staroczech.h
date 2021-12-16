@@ -6,4 +6,17 @@ Heavily inspired by [czech.h](https://github.com/Toaster192/czech.h).
 # Why?
 ...
 
+## Staroczech "hello, world" 
+
+```c
+#include "staroczech.h"
+#include <stdio.h>
+
+číslo najpřední ( prázdn )
+začětie
+    potískatif("Nu, zdrávi byli, světe!\n");
+    vrátiti 0;
+končenie
+```
+
 &copy;roudnas - FIT CTU in Prague
