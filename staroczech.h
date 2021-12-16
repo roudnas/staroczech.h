@@ -4,7 +4,6 @@
 *
 */
 
-
 // Data types
 #define SOUBOR FILE
 #define plavati float
@@ -34,7 +33,7 @@
 #define nčíslo32_t uint32_t
 #define nčíslo64_t uint64_t
 
-// logické konstrukce
+// Logic controllers
 #define kdyžť if
 #define jestli if
 #define jinako else
@@ -49,7 +48,7 @@
 #define rozbiti break
 #define prodliti continue
 
-// ostatní klíčová slova
+// Keywords 
 #define vrátiti return
 #define stálý static
 #define trpné const
@@ -82,13 +81,13 @@
 #define DVOJNÝ_ZÁPIS "wb"
 #define DVOJNÝ_PŘÍPIS "wa"
 
-// standardní I/O streamy
+// Standard i/o streams 
 #define obyčejvstup stdin
 #define obyčejvýstupenie stdout
 #define obyčejvýstup stdout
 #define obyčejblud stderr
 
-// konstanty
+// Constants
 #define pravdicě 1
 #define pravda 1
 #define klam 0
@@ -96,3 +95,19 @@
 #define nepravda 0
 #define KŘ '\n'
 #define NULA NULL
+
+// <stdio.h>
+#define mazati(x) remove(x)
+#define přězdieti(x, y) rename(x, y)
+#define útlsoubor() tmpfile()
+#define útljmén(x) tmpnam(x)
+#define szatvořiti(x) fclose(x)
+#define szplaviti(x) fflush(x)
+#define sotvořiti(x, y) fopen(x, y)
+#define svnověotvořiti(x, y, z) freopen(x, y, z)
+#define napřistimiesto(x, y) setbuf(x, y)
+#define přenapřistimiesto(x, y, z, a) setvbuf(x, y, z, a)
+#define fpotískatif(...) fprintf(__VA_ARGS__)
+#define fčístif(...) fscanf(__VA_ARGS__)
+#define potískatif(...) printf(__VA_ARGS__)
+#define čístif(...) scanf(__VA_ARGS__)
